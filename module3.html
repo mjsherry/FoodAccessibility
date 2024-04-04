@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+    <meta charset="utf-8">
+    <title>Module 3 Assignment</title>
+    <link href="https://fonts.googleapis.com/css?family=JetBrains+Mono" rel="stylesheet">
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        h1, section, header {
+            margin: 20px auto 0;
+            max-width: 800px; 
+            text-align: center; 
+        }
+
+        p {
+            margin: 20px auto 0;
+            max-width: 1300px; 
+        }
+
+        .vertical-list {
+            list-style-type: none; /* Remove the default list bullet/number */
+            padding: 0; /* Remove default padding */
+            margin: 0; /* Remove default margin */
+          }
+          
+          .vertical-list li {
+            margin-bottom: 5px; /* Adjust the margin to control vertical space between items */
+          }
+          
+          .gray-text {
+            color: grey; /* Use "gray" or any shade of grey you prefer */
+          }
+          
+        
+    </style>
+</head>
+
+<h1>Food Access Across the US</h1>
+<header>Yulim Kim and Mikaela Sherry</header>
+
+<p>A significant barrier in food accessibility is the lack of a vehicle when the supermarket is far away. The USDA definition of a food desert is “A tract with at least 500 people, or 33 percent of the population, living more than one-half mile (urban areas) or 10 miles (rural areas) from the nearest supermarket, supercenter, or large grocery store.” Being far from a grocery store can inhibit one's ability to obtain fresh and healthy food, and not having access to a vehicle will further exacerbate this issue. Having access to a vehicle is typically an indicator within socio-economics and can represent a form of independence that not all have access to. We aim to create a dashboard that will help stakeholders to identify counties that are having issues with accessibility to supermarkets because they do not have access to a vehicle. </p>
+<p>This tool allows stakeholders to investigate food inequity throughout the United States. It uses data from a 2019 dataset from the US Department of Agriculture. The dataset shows whether a household has access to a vehicle at various distances from a supermarket - 1/2 mile, 1 mile, 10 miles, and 20 miles. Researchers can use this tool to identify counties that need food assistance across the US.</p>
+
+<div class='tableauPlaceholder' id='viz1712171308454' style='position: relative'>
+    <noscript><a href='#'><img alt='Final Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;GZ&#47;GZWWQ93M4&#47;1_rss.png' style='border: none' /></a></noscript>
+    <object class='tableauViz'  style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+        <param name='embed_code_version' value='3' /> 
+        <param name='path' value='shared&#47;GZWWQ93M4' /> 
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;GZ&#47;GZWWQ93M4&#47;1.png' /> <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+        <param name='filter' value='publish=yes' />
+    </object>
+</div>                
+<script type='text/javascript'>                    
+    var divElement = document.getElementById('viz1712171308454');                    
+    var vizElement = divElement.getElementsByTagName('object')[0];                    
+    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1400px';vizElement.style.height='827px';} 
+        else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1400px';vizElement.style.height='827px';} 
+        else { vizElement.style.width='100%';vizElement.style.height='2477px';}                     
+    var scriptElement = document.createElement('script');                    
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+</script>
